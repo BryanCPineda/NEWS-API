@@ -39,12 +39,12 @@ export async function parseFeed(): Promise<News[]> {
       
       const items = result.rss.channel[0].item;
       
-      const parsedNews = items.map((item) => {
+      const parsedNews = items.map((item: any) => {
         const mediaContent = item['media:content'] || [];
         const enclosure = item.enclosure || [];
         const imageUrl = mediaContent[0]?.$.url || enclosure[0]?.$.url || '';
         const categories = item.category || [];
-        const tags = categories.map((cat) => cat.toString()).filter(Boolean);
+        const tags = categories.map((cat: any) => cat.toString()).filter(Boolean);
 
         const news: News = {
           title: item.title[0],
