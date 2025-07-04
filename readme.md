@@ -8,8 +8,8 @@ Este proyecto es una API construida con **TypeScript + Express** que permite con
 
 La API está desplegada en **Render** y disponible en la siguiente URL:
 
-📡 [https://<TU_URL>.onrender.com](https://<TU_URL>.onrender.com)  
-📄 Swagger Docs: [https://<TU_URL>.onrender.com/docs](https://<TU_URL>.onrender.com/docs)
+📡 [API](https://news-api-isyo.onrender.com/api/v1/news)  
+📄 Swagger Docs: [Swagger](https://news-api-isyo.onrender.com/docs/#/)
 
 ---
 
