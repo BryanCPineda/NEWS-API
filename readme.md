@@ -29,8 +29,8 @@ La API está desplegada en **Render** y disponible en la siguiente URL:
 ## 📦 Instalación local
 
 ```
-git clone https://github.com/<tu_usuario>/<nombre_repo>.git
-cd <nombre_repo>
+git clone [Repositorio](https://github.com/BryanCPineda/NEWS-API/)
+cd news-api
 npm install
 npm run dev
 ```
